@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+html, body {
+	color: #333;
+	font: 14px/23px "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	padding: 64px 0;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+h1, h2, h3 {
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1.25;
+}
+
+h2 {
+	color: #666;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 64px 0 0;
+}
+
+.dozy-parent {
+	background: #f0f0f0;
+	display: block;
+	position: relative;
+}
+
+img.dozy {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	vertical-align: bottom;
+}

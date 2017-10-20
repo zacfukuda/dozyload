@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta >
 	<title>Dozyload Demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/demo.css">
 </head>
@@ -16,11 +17,22 @@
 		<br><br><br><br><br><br><br><br><br><br>
 		<hr>
 		<br><br><br><br><br><br><br><br><br><br>
-		<h3>Basic</h3>
+		<h3>Basic 1</h3>
 		<picture class="">
 			<img class="dozy" data-src="./img/768x512.png" data-srcset="./img/768x512@2x.png 2x, ./img/768x512@3x.png 3x" data-ratio="3:2" alt="Basic dozyloading">
 		</picture>
+		<h3>Basic 2</h3>
+		<div style="max-width:384px; margin:0 auto;">
+			<picture>
+				<img class="dozy" data-src="./img/384x512.png" data-srcset="./img/480x640.png 480w, ./img/720x960.png 720w" data-ratio="3:4">
+			</picture>
+		</div>
+		<h3>Background</h3>
+		<div class="dozy" data-src="./img/bg-pattern.svg" style="padding: 20% 32px;">
+			<p class="text-center">Dozily, you can set a background image.</p>
+		</div>
 	</main>
 	<script src="./js/dozyload.js"></script>
+	<script>hello();</script>
 </body>
 </html>
